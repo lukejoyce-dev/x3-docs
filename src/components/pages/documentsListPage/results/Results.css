@@ -1,0 +1,9 @@
+.results {
+    position: absolute;
+    top: 48px;
+    left: 256px;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 80px 20px;
+}

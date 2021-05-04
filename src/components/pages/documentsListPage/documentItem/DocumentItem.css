@@ -1,0 +1,28 @@
+.document-item {
+    flex: 0 0 215px;
+    -ms-flex: 0 0 250px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+.thumbnail-wrap {
+    height: 200px;
+    background:#fafafa;
+    margin-bottom: 10px;
+}
+.thumbnail {
+    position: relative;
+}
+.selected-ico {
+    position: absolute;
+    top: 10px;
+    left: 15px; 
+}
+.document-item p {
+    font-size: 12px; 
+}
+.thumbnail {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;    
+}

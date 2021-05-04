@@ -1,0 +1,25 @@
+.Cta-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ccc;
+    background: #99d2cb;
+    padding: 10px 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.Cta-bar.active {
+    opacity: 1;
+    transition: all 0.3s ease-in-out
+}
+.cta-bar-inner {
+    display: flex;
+    justify-content: flex-end;
+}
+.ant-select {
+    width: 300px !important;
+}
+.documents-list {
+    margin-top: 10px;
+}
